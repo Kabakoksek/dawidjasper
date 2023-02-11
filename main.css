@@ -45,3 +45,10 @@ p.bindy {
 p.bindy:hover {
     background-color: maroon;
 }
+
+#app {
+    position: absolute;
+    height: 0mm;
+    left: 90vh;
+    width: 100%;
+  }
