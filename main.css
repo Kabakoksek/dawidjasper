@@ -1,6 +1,13 @@
 body {
     background-color: #2E2E2E;
-    cursor: url('src/cursor.ico'), default;
+}
+
+.wholebody{
+    height:auto;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    cursor: url("./img/cursor.ico"),auto;
 }
 
 #informacja {
