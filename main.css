@@ -7,7 +7,7 @@ body {
     background-color: transparent;
     background-position: center;
     background-size: cover;
-    cursor: url("./img/kursor.png"),auto;
+    cursor: url("./img/kursor.png"),pointer;
 }
 
 #informacja {
