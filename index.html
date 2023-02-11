@@ -20,6 +20,12 @@
         <script src="https://apis.google.com/js/platform.js"></script>
         <div class="g-ytsubscribe" data-channelid="UC7FEkS-MKoFswf46fkQks_Q" data-layout="full" data-theme="dark" data-count="default"></div>
     </div>
-    
+    <div id="app"></div>
+    <script src="https://unpkg.com/webamp"></script>
+    <script>
+    const app = document.getElementById("app")
+    const webamp = new Webamp();
+    webamp.renderWhenReady(app);
+</script>
 </body>
 </html>
