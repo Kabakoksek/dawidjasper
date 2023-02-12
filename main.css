@@ -17,6 +17,17 @@ body {
     color: white;
 }
 
+#ktozrobiloll {
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+
 #powrot {
     position: fixed;
     width: 100px;
