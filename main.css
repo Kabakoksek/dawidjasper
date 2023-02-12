@@ -2,14 +2,6 @@ body {
     background-color: #2E2E2E;
 }
 
-.wholebody{
-    height:auto;
-    background-color: transparent;
-    background-position: center;
-    background-size: cover;
-    cursor: url("./img/kursor.png"), pointer;
-}
-
 #informacja {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
