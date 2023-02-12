@@ -18,11 +18,12 @@ body {
 }
 
 #ktozrobiloll {
-    text-align: left;
+    text-align: right;
     font-size: 10px;
     color: white;
     bottom: 0;
     right: 0;
+    float: right;
 }
 
 
