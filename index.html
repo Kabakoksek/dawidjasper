@@ -9,110 +9,22 @@
     <title>E E E UJĆKAP</title>
 </head>
 <body>
-    <div id="app" style="height: 100vh"></div>
     <div class="whole-body"></div>
     <iframe width="800px" height="600px" id="tipply" src="https://widgets.tipply.pl/TIPS_GOAL/a896998d-c006-4757-9142-9d250dcd041e/GOAL/58f206a4-d6fb-40e0-890f-b859ab61c6d1"></iframe><br><br><br><br>
-    <div id="informacja">Strona podczas budowy<br>
+    <div id="main-center">
+    Dawid Jasper Strona Internetowa
         <div style="font-size: 0.65em;">Wejdź na wybraną stronę.</div>
-        <input id="button1" type="button" onclick="location.href='download.html';" value="Bindy" /><br>
-        <input id="button1" type="button" onclick="window.alert('wkrótce');" value="Shoty" /><br>
-        <input id="button1" type="button" onclick="window.alert('wkrótce');" value="Kanały Shoterskie" /><br>
-        <input id="button1" type="button" onclick="location.href='https://tipply.pl/u/kabakokskek';" value="Wsparcie donatem" /><br>
+        <input id="button1" type="button" onclick="location.href='download.html';" value="Bindy 🎤" /><br>
+        <input id="button1" type="button" onclick="location.href='channels.html';" value="Shoty 🎥" /><br>
+        <input id="button1" type="button" onclick="location.href='https://tipply.pl/u/kabakokskek';" value="Wsparcie donatem 💲" /><br>
         <div style="font-size: 0.5em;">Tutaj jest aktualny kanał Jaspera</div>
         <script src="https://apis.google.com/js/platform.js"></script>
         <div class="g-ytsubscribe" data-channelid="UC7FEkS-MKoFswf46fkQks_Q" data-layout="full" data-theme="dark" data-count="default"></div>
-
-        <div style="font-size: 12px;">Strona została stworzona przez funeral(piter grifin z discord) i Vippy (Glizda z Discord) jeśli podjebiesz masz wpierdol</div>
-    <div id="app"></div>
+        <footer><div id="ktozrobiloll">Strona została stworzona przez funeral(piter grifin z discord) i Vippy (Glizda z Discord) jeśli podjebiesz masz wpierdol</div></footer>
+    <div id="app"></div></div>
     <script src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
-    <script>
-        const Webamp = window.Webamp;
-        const webamp = new Webamp({
-            initialTracks: [
-                {
-                    metaData: {
-                        artist: "Bracia Figo Fagot",
-                        title: "Harnaś z Puchy"
-                    },
-                    // NOTE: Your audio file must be served from the same domain as your HTML
-                    // file, or served with permissive CORS HTTP headers:
-                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-                    url: "./music/BRACIA FIGO FAGOT - Harnaś z puchy.mp3",
-                },
-                {
-                    metaData: {
-                        artist: "Łukasz Szybka",
-                        title: "Wysłouchów 55/14 Kraków, Poland"
-                    },
-                    url: "./music/ulani theme song.mp3",
-                },
-                {
-                    metaData: {
-                        artist: "Big Cyc",
-                        title: "Mały Fiat"
-                    },
-                    // NOTE: Your audio file must be served from the same domain as your HTML
-                    //s file, or served with permissive CORS HTTP headers:
-                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-                    url: "./music/Big Cyc- Mały Fiat.mp3",
-                },
-                {
-                    metaData: {
-                        artist: "Dj Antex",
-                        title: "Życie na filmie"
-                    },
-                    // NOTE: Your audio file must be served from the same domain as your HTML
-                    // file, or served with permissive CORS HTTP headers:
-                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-                    url: "./music/Calibra 2.5 lost song - Living on Video Dj Antex mix.mp3",
-                },
-                {
-                    metaData: {
-                        artist: "Dj Pedofil",
-                        title: "Hajs trzeba rozjebać"
-                    },
-                    // NOTE: Your audio file must be served from the same domain as your HTML
-                    // file, or served with permissive CORS HTTP headers:
-                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-                    url: "./music/dawid_jasper_hajs_trzeba_rozjeba_vox_edit_1285176391899062788.mp3",
-                }, 
-                {
-                    metaData: {
-                        artist: "Myszka",
-                        title: "Gdzie jest Dzieciak?"
-                    },
-                    // NOTE: Your audio file must be served from the same domain as your HTML
-                    // file, or served with permissive CORS HTTP headers:
-                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-                    url: "./music/Myszka - Gdzie jest Dzieciak.mp3",
-                },
-                {
-                    metaData: {
-                        artist: "Semetary",
-                        title: "Królikowe Przebranie"
-                    },
-                    // NOTE: Your audio file must be served from the same domain as your HTML
-                    // file, or served with permissive CORS HTTP headers:
-                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-                    url: "./music/SEMATARY & GHOST MOUNTAIN - BUNNY SUIT ＊＊OFFICIAL VIDEO＊＊.mp3",
-                },
-                {
-                    metaData: {
-                        artist: "Adam Pasewicz feat Julka Głowacka",
-                        title: "skeet"
-                    },
-                    // NOTE: Your audio file must be served from the same domain as your HTML
-                    // file, or served with permissive CORS HTTP headers:
-                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-                    url: "./music/yung suree skeet feat julka głowacka (1).mp3",
-                },
-                
-            ],
-        });
-
-        // Returns a promise indicating when it's done loading.
-        webamp.renderWhenReady(document.getElementById('app'));
+    <script src="winamp.js">
     </script>
-    <div id="winamp-container"></div>
+    <div id="winamp-container"></div></div>
 </body>
 </html>
